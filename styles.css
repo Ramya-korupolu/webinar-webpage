@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: black;
+    /* color: white; */
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    background-image: url("images/bg2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#firstSection {
+    margin: 0 0;
+}
+
+
+/* .head {
+    background-image: url("images/bg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+} */
+
+.Intro {
+    padding-left: 1000px;
+    padding-top: 100px;
+    width: 30%;
+    font-size: 50px;
+    text-shadow: 3px 3px #637d89;
+}
+
+.topic {
+    padding-left: 850px;
+    font-size: 30px;
+}
+
+.grad {
+    background: -webkit-linear-gradient(#3368d2, #9329ae);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Top {
+    margin-left: 1000px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.live {
+    width: 100%;
+    max-width: 55px;
+    height: 26px;
+    background: #fff;
+    border-radius: 7px;
+    color: blue;
+    padding: 5px 0 2px 10px;
+    /* padding-left: 10px; */
+    /* padding-top: 5px; */
+    /* padding-bottom: 2px; */
+}
+
+.webinar {
+    margin: 5px 10px;
+}
+
+.reg {
+    width: 100%;
+    max-width: 140px;
+    height: 40px;
+    background: #fff;
+    border-radius: 7px;
+    color: blue;
+    padding: 5px 0 5px 10px;
+    margin-left: 400px;
+    margin-top: 100px;
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    height: 250px;
+    width: 380px;
+    /* margin-top: 200px; */
+    /* margin-left: 900px; */
+    margin: 0 0 0 200px;
+    border-style: solid;
+    border-radius: 12px;
+    border-width: 5px;
+    border-color: rgb(198, 190, 190);
+}
+
+.base {
+    background: rgb(82, 109, 148);
+    width: 600px;
+    height: 12px;
+    border-radius: 10px;
+    /* margin-left: 800px; */
+    /* margin-bottom: 200px; */
+    margin: 38px 0 0 100px;
+}
+
+.base-angle {
+    background: rgb(82, 109, 148);
+    width: 150px;
+    height: 12px;
+    border-radius: 10px;
+    margin-left: 674px;
+    /* margin-bottom: 200px; */
+    /* margin: 50px 0 200px 800px; */
+    transform: rotate(135deg);
+}
+
+.details {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.flexItems {
+    height: 100px;
+    margin-left: 1000px;
+    font-size: x-large;
+}
+
+i {
+    size: 10px;
+}
